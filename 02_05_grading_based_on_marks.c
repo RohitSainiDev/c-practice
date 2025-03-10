@@ -7,13 +7,13 @@ int main()
     printf("Please enter your marks: \n");
     scanf("%d", &marks);
 
-    if (marks >= 33 && marks <= 70)
-    {
-        printf("Grade B \n");
-    }
-    else if (marks >= 0 && marks < 33)
+    if (marks >= 0 && marks < 33)
     {
         printf("Grade C \n");
+    }
+    else if (marks >= 33 && marks <= 70)
+    {
+        printf("Grade B \n");
     }
     else if (marks > 70 && marks <= 90)
     {
