@@ -11,7 +11,7 @@ int main()
     {
         printf("You are an adult. \n");
     }
-    else
+    else // The else part is not madatory, we can skip it if required
     {
         printf("You are not an adult. \n");
     }

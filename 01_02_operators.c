@@ -8,7 +8,7 @@ int main()
 
     // b.Relational operators: ==, <, <=, >, >=,!=
     printf("Relational operators:\n");
-
+    // In C '0' represents false and other numbers(usually 1) represent true
     printf("4 == 5: %d \n", 4 == 5);
     printf("4 < 5: %d \n", 4 < 5);
     printf("4 <= 5: %d \n", 4 <= 5);
