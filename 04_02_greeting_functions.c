@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 void namaste();
 void bonjour();
@@ -10,13 +10,13 @@ int main()
     printf("Enter 'I' for Indian and 'F' for French: \n");
     scanf("%c", &ch);
 
-    if(ch =='I')
+    if (ch == 'I')
     {
         namaste();
     }
-    else if(ch == 'F')
+    else if (ch == 'F')
     {
-       bonjour();
+        bonjour();
     }
     else
     {
@@ -24,7 +24,6 @@ int main()
     }
 
     return 0;
-
 }
 
 void namaste()

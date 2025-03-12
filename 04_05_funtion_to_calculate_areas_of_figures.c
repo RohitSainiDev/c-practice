@@ -1,21 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
 
 // Function to calculate the area of a square
-float area_of_square(float side) {
+float area_of_square(float side)
+{
     return side * side;
 }
 
 // Function to calculate the area of a rectangle
-float area_of_rectangle(float length, float breadth) {
+float area_of_rectangle(float length, float breadth)
+{
     return length * breadth;
 }
 
 // Function to calculate the area of a circle
-float area_of_circle(float radius) {
+float area_of_circle(float radius)
+{
     return 3.14 * radius * radius;
 }
 
-int main() {
+int main()
+{
     float side, length, breadth, radius;
     printf("Enter the side of the square: ");
     scanf("%f", &side);

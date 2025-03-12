@@ -1,13 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
+
 void print_table(int num);
+
 int sum(int num_1, int num_2);
+
 int main()
 {
     int num;
 
     printf("Enter the number to print the table of: \n");
     scanf("%d", &num);
-   
+
     print_table(num);
 
     int num_1, num_2;
@@ -23,7 +26,7 @@ int main()
 
 void print_table(int num)
 {
-    for(int i = 1; i <= 10; i++)
+    for (int i = 1; i <= 10; i++)
     {
         printf("%d * %d = %d\n", num, i, num * i);
     }
